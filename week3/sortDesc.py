@@ -1,0 +1,11 @@
+limit=int(input("Enter limit of array:"))
+array=list()
+print("Enter array elements:")
+for i in range(limit):
+    elements=int(input())
+    array.append(elements)
+print("Original array")
+print(array)
+array.sort(reverse=True)
+print("Array in descending order:")
+print(array)
